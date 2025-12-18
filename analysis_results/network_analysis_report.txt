@@ -1,0 +1,53 @@
+=== 电信诈骗犯罪网络分析报告 ===
+
+1. 网络基本指标:
+   num_nodes: 650
+   num_edges: 1500
+   density: 0.0071115325352613485
+   average_degree: 4.615384615384615
+   is_connected: False
+   num_components: 5
+   average_shortest_path_length: None
+   diameter: None
+   average_clustering: 0.005068376068376068
+   transitivity: 0.005754758742806552
+   degree_assortativity: -0.04557360349219794
+   度统计:
+      min_degree: 0
+      max_degree: 14
+      mean_degree: 4.615384615384615
+      median_degree: 5.0
+      std_degree: 2.0410578531152206
+
+2. 社会网络指标统计:
+   degree_centrality:
+      mean: 0.007112
+      std: 0.003145
+      max: 0.021572
+      min: 0.000000
+   betweenness_centrality:
+      mean: 0.005168
+      std: 0.004345
+      max: 0.031373
+      min: 0.000000
+   closeness_centrality:
+      mean: 0.226446
+      std: 0.025124
+      max: 0.270360
+      min: 0.000000
+   eigenvector_centrality:
+      mean: 0.034072
+      std: 0.019431
+      max: 0.135595
+      min: 0.000000
+   pagerank:
+      mean: 0.001538
+      std: 0.000621
+      max: 0.004884
+      min: 0.000232
+
+3. 风险等级分析:
+   risk_distribution: {'中': 334, '高': 180, '低': 136}
+   高风险子图: {'num_nodes': 180, 'num_edges': 109, 'density': 0.006765983860955928, 'average_clustering': 0.0}
+   中风险子图: {'num_nodes': 334, 'num_edges': 419, 'density': 0.007534480588372804, 'average_clustering': 0.0026946107784431134}
+   低风险子图: {'num_nodes': 136, 'num_edges': 58, 'density': 0.006318082788671024, 'average_clustering': 0.0}
